@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BF7355327998C4400000398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7355227998C4400000398 /* AppDelegate.swift */; };
+		3BF7355527998C4400000398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7355427998C4400000398 /* SceneDelegate.swift */; };
+		3BF7355727998C4400000398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7355627998C4400000398 /* ViewController.swift */; };
+		3BF7355A27998C4400000398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF7355827998C4400000398 /* Main.storyboard */; };
+		3BF7355C27998C4500000398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF7355B27998C4500000398 /* Assets.xcassets */; };
+		3BF7355F27998C4500000398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF7355D27998C4500000398 /* LaunchScreen.storyboard */; };
+		3BF7356A27998C4500000398 /* RX_learning_Calculation_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7356927998C4500000398 /* RX_learning_Calculation_AppTests.swift */; };
+		3BF7357427998C4500000398 /* RX_learning_Calculation_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7357327998C4500000398 /* RX_learning_Calculation_AppUITests.swift */; };
+		3BF7357627998C4500000398 /* RX_learning_Calculation_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7357527998C4500000398 /* RX_learning_Calculation_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BF7356627998C4500000398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BF7354727998C4400000398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BF7354E27998C4400000398;
+			remoteInfo = "RX-learning-Calculation-App";
+		};
+		3BF7357027998C4500000398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BF7354727998C4400000398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BF7354E27998C4400000398;
+			remoteInfo = "RX-learning-Calculation-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BF7354F27998C4400000398 /* RX-learning-Calculation-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RX-learning-Calculation-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF7355227998C4400000398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BF7355427998C4400000398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BF7355627998C4400000398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BF7355927998C4400000398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BF7355B27998C4500000398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF7355E27998C4500000398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BF7356027998C4500000398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF7356527998C4500000398 /* RX-learning-Calculation-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RX-learning-Calculation-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF7356927998C4500000398 /* RX_learning_Calculation_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RX_learning_Calculation_AppTests.swift; sourceTree = "<group>"; };
+		3BF7356F27998C4500000398 /* RX-learning-Calculation-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RX-learning-Calculation-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF7357327998C4500000398 /* RX_learning_Calculation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RX_learning_Calculation_AppUITests.swift; sourceTree = "<group>"; };
+		3BF7357527998C4500000398 /* RX_learning_Calculation_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RX_learning_Calculation_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF7354C27998C4400000398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7356227998C4500000398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7356C27998C4500000398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF7354627998C4400000398 = {
+			isa = PBXGroup;
+			children = (
+				3BF7355127998C4400000398 /* RX-learning-Calculation-App */,
+				3BF7356827998C4500000398 /* RX-learning-Calculation-AppTests */,
+				3BF7357227998C4500000398 /* RX-learning-Calculation-AppUITests */,
+				3BF7355027998C4400000398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF7355027998C4400000398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF7354F27998C4400000398 /* RX-learning-Calculation-App.app */,
+				3BF7356527998C4500000398 /* RX-learning-Calculation-AppTests.xctest */,
+				3BF7356F27998C4500000398 /* RX-learning-Calculation-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF7355127998C4400000398 /* RX-learning-Calculation-App */ = {
+			isa = PBXGroup;
+			children = (
+				3BF7355227998C4400000398 /* AppDelegate.swift */,
+				3BF7355427998C4400000398 /* SceneDelegate.swift */,
+				3BF7355627998C4400000398 /* ViewController.swift */,
+				3BF7355827998C4400000398 /* Main.storyboard */,
+				3BF7355B27998C4500000398 /* Assets.xcassets */,
+				3BF7355D27998C4500000398 /* LaunchScreen.storyboard */,
+				3BF7356027998C4500000398 /* Info.plist */,
+			);
+			path = "RX-learning-Calculation-App";
+			sourceTree = "<group>";
+		};
+		3BF7356827998C4500000398 /* RX-learning-Calculation-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BF7356927998C4500000398 /* RX_learning_Calculation_AppTests.swift */,
+			);
+			path = "RX-learning-Calculation-AppTests";
+			sourceTree = "<group>";
+		};
+		3BF7357227998C4500000398 /* RX-learning-Calculation-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BF7357327998C4500000398 /* RX_learning_Calculation_AppUITests.swift */,
+				3BF7357527998C4500000398 /* RX_learning_Calculation_AppUITestsLaunchTests.swift */,
+			);
+			path = "RX-learning-Calculation-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF7354E27998C4400000398 /* RX-learning-Calculation-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF7357927998C4500000398 /* Build configuration list for PBXNativeTarget "RX-learning-Calculation-App" */;
+			buildPhases = (
+				3BF7354B27998C4400000398 /* Sources */,
+				3BF7354C27998C4400000398 /* Frameworks */,
+				3BF7354D27998C4400000398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RX-learning-Calculation-App";
+			productName = "RX-learning-Calculation-App";
+			productReference = 3BF7354F27998C4400000398 /* RX-learning-Calculation-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BF7356427998C4500000398 /* RX-learning-Calculation-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF7357C27998C4500000398 /* Build configuration list for PBXNativeTarget "RX-learning-Calculation-AppTests" */;
+			buildPhases = (
+				3BF7356127998C4500000398 /* Sources */,
+				3BF7356227998C4500000398 /* Frameworks */,
+				3BF7356327998C4500000398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF7356727998C4500000398 /* PBXTargetDependency */,
+			);
+			name = "RX-learning-Calculation-AppTests";
+			productName = "RX-learning-Calculation-AppTests";
+			productReference = 3BF7356527998C4500000398 /* RX-learning-Calculation-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BF7356E27998C4500000398 /* RX-learning-Calculation-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF7357F27998C4500000398 /* Build configuration list for PBXNativeTarget "RX-learning-Calculation-AppUITests" */;
+			buildPhases = (
+				3BF7356B27998C4500000398 /* Sources */,
+				3BF7356C27998C4500000398 /* Frameworks */,
+				3BF7356D27998C4500000398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF7357127998C4500000398 /* PBXTargetDependency */,
+			);
+			name = "RX-learning-Calculation-AppUITests";
+			productName = "RX-learning-Calculation-AppUITests";
+			productReference = 3BF7356F27998C4500000398 /* RX-learning-Calculation-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF7354727998C4400000398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3BF7354E27998C4400000398 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3BF7356427998C4500000398 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3BF7354E27998C4400000398;
+					};
+					3BF7356E27998C4500000398 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3BF7354E27998C4400000398;
+					};
+				};
+			};
+			buildConfigurationList = 3BF7354A27998C4400000398 /* Build configuration list for PBXProject "RX-learning-Calculation-App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF7354627998C4400000398;
+			productRefGroup = 3BF7355027998C4400000398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF7354E27998C4400000398 /* RX-learning-Calculation-App */,
+				3BF7356427998C4500000398 /* RX-learning-Calculation-AppTests */,
+				3BF7356E27998C4500000398 /* RX-learning-Calculation-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF7354D27998C4400000398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF7355F27998C4500000398 /* LaunchScreen.storyboard in Resources */,
+				3BF7355C27998C4500000398 /* Assets.xcassets in Resources */,
+				3BF7355A27998C4400000398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7356327998C4500000398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7356D27998C4500000398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF7354B27998C4400000398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF7355727998C4400000398 /* ViewController.swift in Sources */,
+				3BF7355327998C4400000398 /* AppDelegate.swift in Sources */,
+				3BF7355527998C4400000398 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7356127998C4500000398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF7356A27998C4500000398 /* RX_learning_Calculation_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7356B27998C4500000398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF7357627998C4500000398 /* RX_learning_Calculation_AppUITestsLaunchTests.swift in Sources */,
+				3BF7357427998C4500000398 /* RX_learning_Calculation_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BF7356727998C4500000398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BF7354E27998C4400000398 /* RX-learning-Calculation-App */;
+			targetProxy = 3BF7356627998C4500000398 /* PBXContainerItemProxy */;
+		};
+		3BF7357127998C4500000398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BF7354E27998C4400000398 /* RX-learning-Calculation-App */;
+			targetProxy = 3BF7357027998C4500000398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BF7355827998C4400000398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF7355927998C4400000398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BF7355D27998C4500000398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF7355E27998C4500000398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BF7357727998C4500000398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BF7357827998C4500000398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF7357A27998C4500000398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RX-learning-Calculation-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi.RX-learning-Calculation-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BF7357B27998C4500000398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RX-learning-Calculation-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi.RX-learning-Calculation-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BF7357D27998C4500000398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi.RX-learning-Calculation-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RX-learning-Calculation-App.app/RX-learning-Calculation-App";
+			};
+			name = Debug;
+		};
+		3BF7357E27998C4500000398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi.RX-learning-Calculation-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RX-learning-Calculation-App.app/RX-learning-Calculation-App";
+			};
+			name = Release;
+		};
+		3BF7358027998C4500000398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi.RX-learning-Calculation-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RX-learning-Calculation-App";
+			};
+			name = Debug;
+		};
+		3BF7358127998C4500000398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiraishi.RX-learning-Calculation-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RX-learning-Calculation-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF7354A27998C4400000398 /* Build configuration list for PBXProject "RX-learning-Calculation-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7357727998C4500000398 /* Debug */,
+				3BF7357827998C4500000398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF7357927998C4500000398 /* Build configuration list for PBXNativeTarget "RX-learning-Calculation-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7357A27998C4500000398 /* Debug */,
+				3BF7357B27998C4500000398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF7357C27998C4500000398 /* Build configuration list for PBXNativeTarget "RX-learning-Calculation-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7357D27998C4500000398 /* Debug */,
+				3BF7357E27998C4500000398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF7357F27998C4500000398 /* Build configuration list for PBXNativeTarget "RX-learning-Calculation-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7358027998C4500000398 /* Debug */,
+				3BF7358127998C4500000398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BF7354727998C4400000398 /* Project object */;
+}
