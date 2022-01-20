@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371D1D691C05A687ECCA5E4E /* Pods_RX_learning_Calculation_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21023745F57ECC51F2C7FED /* Pods_RX_learning_Calculation_App.framework */; };
 		3BF7355327998C4400000398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7355227998C4400000398 /* AppDelegate.swift */; };
 		3BF7355527998C4400000398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7355427998C4400000398 /* SceneDelegate.swift */; };
 		3BF7355727998C4400000398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7355627998C4400000398 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A86C13701528068157FDCF /* Pods-RX-learning-Calculation-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RX-learning-Calculation-App.release.xcconfig"; path = "Target Support Files/Pods-RX-learning-Calculation-App/Pods-RX-learning-Calculation-App.release.xcconfig"; sourceTree = "<group>"; };
 		3BF7354F27998C4400000398 /* RX-learning-Calculation-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RX-learning-Calculation-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF7355227998C4400000398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BF7355427998C4400000398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		3BF7356F27998C4500000398 /* RX-learning-Calculation-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RX-learning-Calculation-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF7357327998C4500000398 /* RX_learning_Calculation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RX_learning_Calculation_AppUITests.swift; sourceTree = "<group>"; };
 		3BF7357527998C4500000398 /* RX_learning_Calculation_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RX_learning_Calculation_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A21023745F57ECC51F2C7FED /* Pods_RX_learning_Calculation_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RX_learning_Calculation_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE80CBD774A95480948032BD /* Pods-RX-learning-Calculation-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RX-learning-Calculation-App.debug.xcconfig"; path = "Target Support Files/Pods-RX-learning-Calculation-App/Pods-RX-learning-Calculation-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371D1D691C05A687ECCA5E4E /* Pods_RX_learning_Calculation_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				3BF7356827998C4500000398 /* RX-learning-Calculation-AppTests */,
 				3BF7357227998C4500000398 /* RX-learning-Calculation-AppUITests */,
 				3BF7355027998C4400000398 /* Products */,
+				7D60EBEDF1162F78A03A00B2 /* Pods */,
+				C62874F79E0662095CA050CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +134,24 @@
 			path = "RX-learning-Calculation-AppUITests";
 			sourceTree = "<group>";
 		};
+		7D60EBEDF1162F78A03A00B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE80CBD774A95480948032BD /* Pods-RX-learning-Calculation-App.debug.xcconfig */,
+				10A86C13701528068157FDCF /* Pods-RX-learning-Calculation-App.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C62874F79E0662095CA050CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21023745F57ECC51F2C7FED /* Pods_RX_learning_Calculation_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF7357927998C4500000398 /* Build configuration list for PBXNativeTarget "RX-learning-Calculation-App" */;
 			buildPhases = (
+				0B896F5D13F41F933FC1991A /* [CP] Check Pods Manifest.lock */,
 				3BF7354B27998C4400000398 /* Sources */,
 				3BF7354C27998C4400000398 /* Frameworks */,
 				3BF7354D27998C4400000398 /* Resources */,
+				853BF434FFD1FF02143786A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B896F5D13F41F933FC1991A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RX-learning-Calculation-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853BF434FFD1FF02143786A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RX-learning-Calculation-App/Pods-RX-learning-Calculation-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RX-learning-Calculation-App/Pods-RX-learning-Calculation-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RX-learning-Calculation-App/Pods-RX-learning-Calculation-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3BF7354B27998C4400000398 /* Sources */ = {
@@ -434,6 +503,7 @@
 		};
 		3BF7357A27998C4500000398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE80CBD774A95480948032BD /* Pods-RX-learning-Calculation-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +531,7 @@
 		};
 		3BF7357B27998C4500000398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A86C13701528068157FDCF /* Pods-RX-learning-Calculation-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
